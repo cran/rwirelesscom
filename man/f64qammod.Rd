@@ -15,9 +15,8 @@ returns a complex vector of length = (length(bits) mod 6), 64-QAM symbols
 \description{
 Receives a vector of bits (1's and 0's). The received vector is mapped to an
 in-phase (real) and quadrature (imaginary) 64-QAM (6 bit) symbol according to
-a Binary Reflective Gray Code (BRGC, see reference). Each symbol has an average
-symbol energy \eqn{E_{s}}{Es} = 42, where in-phase and quadrature constellation points
-take on values of (-7, -5, -3, -1, +1, +3, +5, +7), respectively.
+a Binary Reflective Gray Code (BRGC, see reference). In-phase and quadrature constellation points
+take on values -7, -5, -3, -1, +1, +3, +5, +7, respectively, corresponding to a symbol energy Es = 42.
 Mapping of bits to 64-QAM constellation points is illustrated in the following constellation.
 \tabular{cccccccc}{
 -7+7i  \tab -5+7i \tab +3+7i  \tab -1+7i \tab +1+7i  \tab +3+7i \tab +5+7i  \tab +7+7i \cr
@@ -56,7 +55,8 @@ bits <- sample(0:1,Nbits, replace=TRUE)
 s <- f64qammod(bits)
 }
 \seealso{
-Other modulation.demodulation.communications: \code{\link{f16qamdemod}};
+Other modulation.demodulation.communications: \code{\link{f16pskdemod}};
+  \code{\link{f16pskmod}}; \code{\link{f16qamdemod}};
   \code{\link{f16qammod}}; \code{\link{f64qamdemod}};
   \code{\link{f8pskdemod}}; \code{\link{f8pskmod}};
   \code{\link{fNo}}; \code{\link{fbpskdemod}};

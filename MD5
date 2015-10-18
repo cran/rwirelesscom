@@ -1,4 +1,4 @@
-e420e5d9a659fc97244b7d9b933fa22c *DESCRIPTION
+cd75589801c87f0c34ccdb33fad52d89 *DESCRIPTION
 93fcaf5ccb19568cc74dde76387d7683 *NAMESPACE
 12a5ed8beffcfc26582ff87ae47e4e43 *R/RcppExports.R
 207421d9dc0e64f45a1d5b6718510805 *R/rwirelesscom.R
@@ -25,6 +25,6 @@ a35038814ae92e0b73a8ab55d3affa8d *man/sinc.Rd
 fb2d9496075af80b8538492a73ee4ae4 *man/sqrtrcosine.Rd
 2ca9392748e78a73d87a679872e1e419 *man/stemplot.Rd
 9187e09e4660cb8cb1a013321933ce15 *src/RcppExports.cpp
-b59bdd31bb249588cec5397c16cbf900 *src/rwirelesscom.cpp
+3f36ede335a2ac172bf5a9f7cbb18fda *src/rwirelesscom.cpp
 9b257ee947615f84b99ef2859b292ef9 *tests/testthat.R
 40cdcff0284c23d16749810c5e5cf96b *tests/testthat/test1.R
